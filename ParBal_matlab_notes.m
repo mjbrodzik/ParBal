@@ -1,6 +1,5 @@
 * TODO:
 
-- move main ParBal to ~/Documents/MATLAB
 - copy GLDAS and DEM files from /work/charis/GLDAS to ThunderBay
 - get recipe modified and running for a couple days, check output
 - run ParBal for Naryn and Vakhsh
@@ -9,8 +8,6 @@
 * General ParBal notes:
 
 % when we run ParBal, use fastFlag=True to only solve for melt
-
-% data are in /Volumes/ThunderBay/reconstruction
 
 * General Matlab notes:
 
@@ -33,5 +30,10 @@ delete(gcp)
 % I need to learn how to fetch desired ldas data
 
 % Use ~/MATLAB  as top dirdir for my scripts/etc
-% prob also one level down for specific projects/
 % matlab assumes cwd 
+
+* Globus
+
+To add something other than ~/ to Globus defaults,
+open Globus Personal Connect App on Mac,
+and go to Preferences->Access tab.
